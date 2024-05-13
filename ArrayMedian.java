@@ -63,8 +63,9 @@ public class ArrayMedian {
 
         
         calculateMedian(sort);
-        System.out.println(sort);
-
+        for(double d : sort){
+            System.out.println(String.valueOf(d));
+        }
         return median;
 
     }
